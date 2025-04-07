@@ -9,7 +9,7 @@ const app = express();
 
 // CORS Configuration - Adjust origin for production
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || "https://event-management-frontend-lac.vercel.app/" 
+  origin: process.env.FRONTEND_URL || "https://event-management-frontend-332gbjdk5.vercel.app" 
   // origin: "*" // Allow frontend origin
 };
 app.use(cors(corsOptions));
